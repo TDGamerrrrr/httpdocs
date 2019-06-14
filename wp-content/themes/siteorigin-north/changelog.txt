@@ -1,0 +1,178 @@
+== Changelog ==
+
+View full release information on [Github](https://github.com/siteorigin/siteorigin-north/releases).
+
+= 1.3.3 - 24 February 2017 =
+* Fixed missing z-index declarations in minified CSS files.
+* Improved WooCommerce cart responsive behaviour.
+
+= 1.3.2 - 13 February 2017 =
+* Added a top bar widget area which replaces top bar text if used.
+* Added setting to control top bar widget area padding.
+* Added post formats for gallery, image, video.
+
+= 1.3.1 - 29 January 2016 =
+* Fixed the top bar JavaScript error.
+* Added descriptions to color settings in the Customizer.
+* Added a setting to display the logo and site title alongside each other.
+* Standardized the WooCommerce checkout PayPal logo.
+
+= 1.3.0 - 23 January 2016 =
+* Updated settings framework.
+* Added new Stripped page layout option, primarily for e-commerce use.
+* Fixed sticky header page jump.
+* Fixed mobile menu scrolling with sticky header.
+* Added Jetpack Infinite Scroll styling and template for WooCommerce.
+* Added a setting to display Scroll to Top on mobile devices.
+* Improved smooth scroll functionality for late loading assets like the SO Hero widget.
+* Added a setting to display the WooCommerce mini-cart on the cart and checkout pages.
+* Added menu font color settings.
+* Added support for Jetpack Responsive Videos.
+
+= 1.2.9 - 05 December 2016 =
+* Fixed mobile menu breakpoint warning notice bug.
+* Improved mobile menu breakpoint setting allowing lower values.
+* Improve WooCommerce product quickview modal closing.
+* Fixed WooCommerce product quickview modal title overlap bug.
+
+= 1.2.8 - 07 November 2016 =
+* Updated settings framework.
+* Fixed sidebar margin responsive bug.
+* Improved comment form responsive behavior.
+* Fixed WooCommerce mini-cart bug with with long titles.
+* Improved mobile menu breakpoint setting. Values below 600px now possible.
+
+= 1.2.7 - 24 October 2016 =
+* Ensure long product title wrap correctly in the mini-cart.
+* Added Widgets for SiteOrigin to the smooth scroll ignore list.
+
+= 1.2.6 - 10 October 2016 =
+* Improved accessibility.
+* Added theme support for the custom logo.
+* Fixed conflict with smooth scrolling and WooCommerce tabs.
+* Use siteorigin_settings_custom_css to display custom css.
+* Fixed settings text domain translation bug.
+* Updated settings framework.
+
+= 1.2.5 - 30 August 2016 =
+* Added styling to the archive products buttons.
+* Added settings for mobile menu toggle text and icon colors.
+* Allow use of shortcodes in taxonomy descriptions.
+* Updated styling for Woo quickview button.
+* Don’t apply selection color to adminbar.
+* Fixed RTL issue with header search close icon.
+* Add blog loop template to be used by Post loop widget.
+* Improved logo scaling.
+* Fixed conflict with smooth scrolling and Livemesh widgets.
+* Updated settings framework.
+
+= 1.2.4 - 15 August 2016 =
+* Added smooth scroll to mobile menu
+* Integrated with SiteOrigin Premium.
+* Prefixed all global JS function names.
+* Display breadcrumb even without page title.
+* Fixed sticky masthead  with overlap setting.
+* Added page featured image.
+* Improved site title SEO.
+* Added new featured image size for no-sidebar template.
+* Extending smooth scroll sitewide.
+* Added settings to use post excerpt in blog archives.
+* Added action hook underneath entry author avatar.
+* Allowed the use of HTML in the author bio field.
+* Changed styling of the author box.
+* Reduced padding between list items on account page.
+* Fixed default settings.
+
+= 1.2.3 - 15 June 2016 =
+* Fix to cart button for latest WooCommerce
+* Updated settings framework
+* Updated the quick view modal and added a close icon
+* FitVids fixes.
+
+= 1.2.2 - May 26 2016 =
+* Fixed warning message in customizer.
+* Removed duplicate is mobile body class.
+* Improved main menu touch device compatibility.
+
+= 1.2.1 - May 24 2016 =
+* Updated settings framework.
+* Added about page.
+* Fixed post thumbnail size.
+* Added logo migration code.
+* Fixed search input on iOS.
+* Improved WooCommerce cart design on mobile.
+* Disabled sticky menu on mobile devices until all issues can be resolved.
+* Standardised jquery handles.
+
+= 1.2 - May 6 2016 =
+* Fixes to RTL layout.
+* Styled various WooCommerce widgets.
+* Fixed mobile menu dropdown for custom breakpoints.
+* Made Mobile Menu scrollable.
+* Added WooCommerce quick view functionality.
+* Added font-smoothing and text-rendering.
+* Added current menu item indication.
+* Fixed overflowing menu dropdowns.
+* For one page sites, close mobile menu when a link in the dropdown is clicked.
+* Fixed flashes with smooth scroll.
+* Removed unused setting.
+* Added mobile menu customization settings.
+* Added custom icon settings.
+* Fixed masthead padding updating in Customizer.
+* Changed post meta alignment.
+* Added page settings to posts.
+
+= 1.1.3 - March 9 2016 =
+* Reformatted code to match WordPress guidelines.
+* Center aligned dropdown menu.
+* Fixed short labels in main submenu items.
+* Fixed bug with anchor menu items.
+* Properly styled WooCommerce review form.
+
+= 1.1.2 - March 7 2016 =
+* Fixed WooCommerce checkout button.
+* Created new checkout page style.
+* Styled core WordPress widgets.
+* Small WooCommerce product page fixes.
+* Fixed disable responsive layout for cart and checkout pages.
+
+= 1.1.1 - March 2 2016 =
+* Fixed/Improved various WooCommerce element styling.
+* Added smooth scrolling navigation option for one-page sites.
+* Updated settings framework.
+* Updated all WooCommerce template files for latest version.
+
+= 1.1 - January 20 2016 =
+* Fixed WooCommerce enqueueing and buttons.
+* Added various customizations in theme settings.
+* Added retina logo setting.
+* Added breadcrumb support.
+* Added option for mobile menu breakpoint.
+* Added RTL support.
+* Properly enqueue default webfonts.
+* Updated to latest Page Builder lite.
+* Added WooCommerce cart in menu.
+* Added more page layouts.
+* Corrections to comment form.
+* Added contact form styling.
+* Fixed audio shortcode styling.
+* Various edge case CSS fixes and improvements.
+* Fixed thumbnail sizing.
+* Added basic author box.
+
+= 1.0.3 - October 5 2015 =
+* Properly escape output in header.php.
+* Properly prefixed globals.
+* Use get_search_form.
+* Removed unsupported customizer code.
+* Removed rtl.css until it's properly supported.
+
+= 1.0.2 - October 5 2015 =
+* Fixed page scrolling error caused by sticky menu.
+* Properly handle sticky menu with both fixed and absolute admin bar.
+
+= 1.0.1 - October 4 2015 =
+* Various fixes and improvements in preparation for initial review/release.
+
+= 1.0 - August 18 2015 =
+* Initial release
